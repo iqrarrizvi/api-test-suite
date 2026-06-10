@@ -17,7 +17,7 @@ export default defineConfig({
     : [['list']],
 
   use: {
-    baseURL: process.env.BASE_URL || 'https://reqres.in',
+    baseURL: process.env.BASE_URL || 'https://dummyjson.com',
     extraHTTPHeaders: {
       'Content-Type': 'application/json',
       'Accept': 'application/json',

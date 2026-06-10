@@ -1,25 +1,22 @@
-// Reqres.in public test credentials (documented on the site)
+// DummyJSON public test credentials (https://dummyjson.com/docs/auth)
 export const validLogin = {
-  email: 'eve.holt@reqres.in',
-  password: 'cityslicka',
-};
-
-export const validRegister = {
-  email: 'eve.holt@reqres.in',
-  password: 'pistol',
+  username: 'emilys',
+  password: 'emilyspass',
 };
 
 export const invalidLogin = {
-  email: 'peter@klaven.com',
-  // password intentionally omitted to trigger 400
+  username: 'emilys',
+  password: 'wrongpassword',
 };
 
 export const newUser = {
-  name: 'Test User',
-  job: 'QA Automation Engineer',
+  firstName: 'Test',
+  lastName: 'User',
+  age: 30,
 };
 
 export const updatedUser = {
-  name: 'Test User',
-  job: 'Senior QA Engineer',
+  firstName: 'Test',
+  lastName: 'User',
+  age: 31,
 };
