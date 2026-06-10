@@ -1,0 +1,13 @@
+{
+  "name": "api-test-suite",
+  "description": "Playwright API test suite targeting a public REST API — covers CRUD, auth, schema validation, and error handling",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "smoke": "npx playwright test --grep @smoke",
+    "regression": "npx playwright test --grep @regression"
+  }
+}
